@@ -4,7 +4,7 @@
 }
 
 .map {
-    position: absolute;
+    position: relative;
     top: 10%;
     bottom: 10%;
     width: 95%;
