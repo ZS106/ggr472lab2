@@ -3,6 +3,16 @@
     color: blueviolet;
 }
 
+.map {
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    width: 95%;
+}
+
+.Legend {
+    background-color: white;
+}
 
 .Citation {
     background-color: lightgrey;
@@ -14,9 +24,3 @@
     color: darkolivegreen;
 }
 
-.map {
-    position: absolute;
-    top: 10%;
-    bottom: 10%;
-    width: 95%;
-}
