@@ -4,7 +4,7 @@
 }
 
 .map {
-    position: sticky;
+    position: static;
     top: 10%;
     bottom: 10%;
     width: 95%;
