@@ -6,7 +6,6 @@
 my HTML website, I find that the map is covering my other section and after several times
 I find that we need to set position to "static" for normal flow of the document
 "static" is a default value
-
 After that I could manually adjust the size and position of my map*/
 .map {
     width: 1500px;
