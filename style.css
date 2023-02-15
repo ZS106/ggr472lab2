@@ -4,6 +4,7 @@
 }
 
 .Map {
+    postion: static;
     background-color: white;
     
 }
