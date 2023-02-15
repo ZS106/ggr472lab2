@@ -8,6 +8,45 @@ const map = new mapboxgl.Map({
 });
 
 
+map.on('load', () => {
+    //GeoJSON must direct to URL 
+    map.addSource('covid19immclinics', {
+        type: 'geojson',
+        data: 'https://zs106.github.io/ggr472lab2/covid-19-immunization-clinics.geojson'
+   
+    });
+
+    //Draw GeoJSON point geometry as circles
+    map.addLayer({
+        'id': 'covid19immclinicslayer',
+        'type': 'circle',
+        'source': 'covid19immclinics',
+        'paint': {
+            'circle-radius': 5,
+            'circle-color': 'blue'
+        }
+
+    });
+
+    map.addSource('firestation', {
+        type: 'geojson',
+        data: 'https://zs106.github.io/ggr472lab2/fire-station-locations.geojson'
+   
+    });
+
+    //Draw GeoJSON point geometry as circles
+    map.addLayer({
+        'id': 'firestationlayer',
+        'type': 'circle',
+        'source': 'firestation',
+        'paint': {
+            'circle-radius': 5,
+            'circle-color': 'red'
+        }
+
+    });
+
+})
 
 /*
 map.on('load', () => {
