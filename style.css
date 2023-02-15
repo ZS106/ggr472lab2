@@ -4,8 +4,7 @@
 }
 
 .map {
-    position: static;
-
+    background-color: white;
     width: 95%;
 }
 
@@ -16,10 +15,5 @@
 .Citation {
     background-color: lightgrey;
     color: blue;
-}
-
-.Resources {
-    background-color: lightcyan;
-    color: darkolivegreen;
 }
 
